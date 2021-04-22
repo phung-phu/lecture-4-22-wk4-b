@@ -1,0 +1,22 @@
+{
+  "name": "4-15-wk3-b-eda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url https://info474-sp21.github.io/lecture-4-20-wk4-a-fetch && rm -rf docs && mv dist docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3-array": "^2.12.1",
+    "d3-fetch": "^2.0.0",
+    "d3-scale": "^3.3.0",
+    "parcel": "^2.0.0-beta.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
